@@ -1,18 +1,13 @@
+import java.lang.reflect.Method;
 import java.util.Scanner;
 
 public class One {
     public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);
-        int age = sc.nextInt();
 
-        int x = 34;
-        int y = 23;
-        int sum = x + y;
-        System.out.println(age);
-       
+        int[] ages = {11, 12, 13, 14, 56};
+        System.out.println(ages[0]);
+
     }
 
-
 }
-
